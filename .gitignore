@@ -1,1 +1,7 @@
 .DS_Store
+
+*.gbr
+*.zip
+*.drl
+*.bak
+*.kicad_pcb-bak
