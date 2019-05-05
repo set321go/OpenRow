@@ -1,4 +1,4 @@
-update=Tuesday, April 23, 2019 at 11:50:03 am
+update=Friday, May 03, 2019 at 10:48:49 am
 version=1
 last_client=kicad
 [general]
@@ -26,7 +26,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=Rowing Computer.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -68,13 +68,19 @@ SolderMaskClearance=0.0508
 SolderMaskMinWidth=0.1016
 SolderPasteClearance=0
 SolderPasteRatio=-0
+[pcbnew/Layer.In1.Cu]
+Name=InnerTop.Cu
+Type=0
+[pcbnew/Layer.In2.Cu]
+Name=InnnerBottom.Cu
+Type=1
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=Current
 Clearance=0.1524
-TrackWidth=0.254
-ViaDiameter=0.6096
-ViaDrill=0.3048
+TrackWidth=0.525
+ViaDiameter=1
+ViaDrill=0.525
 uViaDiameter=0.6096
 uViaDrill=0.3048
 dPairWidth=0.1524
